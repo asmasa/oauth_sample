@@ -1,0 +1,27 @@
+
+oauth_sample=/home/masayuki/git_repos/oauth_sample CD=. filter="**" {
+ app.js
+ conf.js
+ package.json
+ public/stylesheets/style.css
+ routes/index.js
+ views/index.jade
+ views/layout.jade
+ public=public {
+  stylesheets/style.css
+  images=images {
+  }
+  javascripts=javascripts {
+  }
+  stylesheets=stylesheets {
+   style.css
+  }
+ }
+ routes=routes {
+  index.js
+ }
+ views=views {
+  index.jade
+  layout.jade
+ }
+}
